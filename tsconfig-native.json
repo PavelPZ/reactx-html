@@ -1,0 +1,38 @@
+﻿{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es6",
+
+    "baseUrl": ".",
+    "paths": {
+      "reactx-html/current/*": [ "src/reactx-html/web/*" ],
+      "reactx-html/native/*": [ "src/reactx-html/native/*" ],
+      "reactx-html/web/*": [ "src/reactx-html/web/*" ],
+      "reactx-html/common/*": [ "src/reactx-html/common/*" ],
+      "test/*": [ "src/test/*" ]
+    },
+
+    //"importHelpers": true, https://github.com/facebook/react-native/issues/16858
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": false,
+    "downlevelIteration": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "noImplicitReturns": true,
+    "strictFunctionTypes": false,
+
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "jsx": "react-native",
+    "lib": [
+      "dom",
+      "es2015",
+      "esnext.asynciterable"
+    ]
+  },
+  "include": [ "**/*" ],
+  "exclude": [
+    "jspm_packages",
+    "node_modules"
+  ]
+}

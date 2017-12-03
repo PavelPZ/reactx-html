@@ -1,0 +1,22 @@
+{
+  "presets": [ "babel-preset-expo" ],
+  "ignore": [
+    "jspm_packages/**/*"
+  ],
+  "env": {
+    "development": {
+      "plugins": [ "transform-react-jsx-source" ]
+    }
+  },
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [ "./src" ],
+        "alias": {
+          "reactx-html/current": "reactx-html/native"
+        }
+      }
+    ]
+  ]
+}

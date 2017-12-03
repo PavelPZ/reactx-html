@@ -1,0 +1,23 @@
+﻿<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HTML to react-native converter</title>
+
+</head>
+<body style="margin:0; padding:0; overflow:hidden; ">
+  <div id="content" style="width:100vw; height:100vh; overflow:auto;">
+  </div>
+
+  <script src="jspm_packages/npm/core-js@2.5.1/client/shim.min.js"></script>
+  <script src="jspm_packages/system.src.js"></script>
+  <script src="jspm.config.js"></script>
+  <script>
+    System.import('index.js').then(function (m) { m.init(); }).catch(function (err) { debugger; });
+    //jspm build ./index.js ./bundle.js --minify
+  </script>
+  
+</body>
+
+</html>
