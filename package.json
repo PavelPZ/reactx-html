@@ -1,0 +1,24 @@
+{
+  "name": "reactx-html",
+  "version": "0.1.0",
+  "description": "HTML to react-native converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelPZ/reactx-html.git"
+  },
+  "keywords": [
+    "react",
+    "html",
+    "react-native"
+  ],
+  "author": "pzika@langmaster.cz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelPZ/reactx-html/issues"
+  },
+  "homepage": "https://github.com/PavelPZ/reactx-html#readme"
+}
