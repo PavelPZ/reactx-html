@@ -1,5 +1,4 @@
 SystemJS.config({
-
   paths: {
     "npm:": "jspm_packages/npm/",
     "reactx-html/": "src/"
@@ -8,17 +7,18 @@ SystemJS.config({
     "baseURL": "/"
   },
   packages: {
-    "": {
-      "defaultExtension": "js"
-    },
     "reactx-html": {
       "main": "reactx-html.js"
+    },
+    "": {
+      "defaultExtension": "js"
     }
   },
   map: {
     "reactx-html/current": "src/reactx-html/web",
     "reactx-html/web": "src/reactx-html/web",
     "reactx-html/common": "src/reactx-html/common",
+    "reactx-html/native": "src/reactx-html/native",
     "test": "src/test"
   }
 });
@@ -29,6 +29,7 @@ SystemJS.config({
     "npm:*.json"
   ],
   map: {
+    "deepmerge": "npm:deepmerge@2.0.1",
     "assert": "npm:jspm-nodelibs-assert@0.2.1",
     "buffer": "npm:jspm-nodelibs-buffer@0.2.3",
     "child_process": "npm:jspm-nodelibs-child_process@0.2.1",
@@ -51,6 +52,7 @@ SystemJS.config({
     "url": "npm:jspm-nodelibs-url@0.2.1",
     "util": "npm:jspm-nodelibs-util@0.2.2",
     "vm": "npm:jspm-nodelibs-vm@0.2.1",
+    "warning": "npm:warning@3.0.0",
     "zlib": "npm:jspm-nodelibs-zlib@0.2.3"
   },
   packages: {
@@ -416,6 +418,11 @@ SystemJS.config({
       "map": {
         "inherits": "npm:inherits@2.0.3",
         "safe-buffer": "npm:safe-buffer@5.1.1"
+      }
+    },
+    "npm:warning@3.0.0": {
+      "map": {
+        "loose-envify": "npm:loose-envify@1.3.1"
       }
     }
   }

@@ -28,18 +28,22 @@
     "@types/react-native": "^0.50.7"
   },
   "dependencies": {
+    "deepmerge": "^2.0.1",
     "expo": "^23.0.5",
     "react": "16.0.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-23.0.0.tar.gz",
-    "tslib": "^1.8.0"
+    "tslib": "^1.8.0",
+    "warning": "^3.0.0"
   },
   "jspm": {
     "name": "reactx-html",
     "main": "reactx-html.js",
     "dependencies": {
       "core-js": "npm:core-js@^2.5.1",
+      "deepmerge": "npm:deepmerge@^2.0.1",
       "react-dom": "npm:react-dom@^16.2.0",
-      "tslib": "npm:tslib@^1.8.0"
+      "tslib": "npm:tslib@^1.8.0",
+      "warning": "npm:warning@^3.0.0"
     },
     "devDependencies": {},
     "peerDependencies": {

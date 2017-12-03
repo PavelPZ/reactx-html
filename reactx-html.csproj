@@ -88,6 +88,7 @@
     <Content Include="assets\icons\app-icon.png" />
     <Content Include="assets\icons\loading-icon.png" />
     <Content Include="index.html" />
+    <Content Include="jspm.config.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -97,8 +98,9 @@
   <ItemGroup>
     <TypeScriptCompile Include="App.tsx" />
     <TypeScriptCompile Include="index.tsx" />
+    <TypeScriptCompile Include="src\reactx-html\common\warning.d.ts" />
+    <TypeScriptCompile Include="src\reactx-html\common\deepmerge.d.ts" />
     <TypeScriptCompile Include="src\reactx-html\common\react-native-d.d.ts" />
-    <TypeScriptCompile Include="src\reactx-html\common\index.tsx" />
     <TypeScriptCompile Include="src\reactx-html\native\index.tsx" />
     <TypeScriptCompile Include="src\reactx-html\web\index.tsx" />
     <TypeScriptCompile Include="src\test\index.tsx" />

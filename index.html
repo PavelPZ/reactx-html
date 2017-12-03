@@ -14,7 +14,7 @@
   <script src="jspm_packages/system.src.js"></script>
   <script src="jspm.config.js"></script>
   <script>
-    System.import('index.js').then(function (m) { m.init(); }).catch(function (err) { debugger; });
+    System.import('index.js' /*bundle.js*/).then(function (m) { m.init(); }).catch(function (err) { debugger; });
     //jspm build ./index.js ./bundle.js --minify
   </script>
   
