@@ -1,7 +1,7 @@
 SystemJS.config({
   paths: {
     "npm:": "jspm_packages/npm/",
-    "reactx-html/": "src/"
+    "npmreactxmui:": "jspm_packages/npm/reactx-mui-web@0.1.12/"
   },
   browserConfig: {
     "baseURL": "/"
@@ -15,11 +15,10 @@ SystemJS.config({
     }
   },
   map: {
-    "reactx-html/current": "src/reactx-html/web",
-    "reactx-html/web": "src/reactx-html/web",
-    "reactx-html/common": "src/reactx-html/common",
-    "reactx-html/native": "src/reactx-html/native",
-    "test": "src/test"
+    "reactx-mui/current": "npmreactxmui:web",
+    "reactx-mui/web": "npmreactxmui:web",
+    "reactx-mui/common": "npmreactxmui:common",
+    "reactx-mui/test": "npmreactxmui:test"
   }
 });
 
@@ -29,6 +28,7 @@ SystemJS.config({
     "npm:*.json"
   ],
   map: {
+    "reactx-mui-web": "npm:reactx-mui-web@0.1.12",
     "deepmerge": "npm:deepmerge@2.0.1",
     "assert": "npm:jspm-nodelibs-assert@0.2.1",
     "buffer": "npm:jspm-nodelibs-buffer@0.2.3",

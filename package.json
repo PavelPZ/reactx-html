@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "HTML to react-native converter",
   "private": true,
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -32,6 +32,7 @@
     "expo": "^23.0.5",
     "react": "16.0.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-23.0.0.tar.gz",
+    "reactx-mui-native": "^0.1.15",
     "tslib": "^1.8.0",
     "warning": "^3.0.0"
   },
@@ -39,11 +40,7 @@
     "name": "reactx-html",
     "main": "reactx-html.js",
     "dependencies": {
-      "core-js": "npm:core-js@^2.5.1",
-      "deepmerge": "npm:deepmerge@^2.0.1",
-      "react-dom": "npm:react-dom@^16.2.0",
-      "tslib": "npm:tslib@^1.8.0",
-      "warning": "npm:warning@^3.0.0"
+      "reactx-mui-web": "npm:reactx-mui-web@^0.1.6"
     },
     "devDependencies": {},
     "peerDependencies": {
@@ -51,7 +48,9 @@
       "buffer": "npm:jspm-nodelibs-buffer@^0.2.0",
       "child_process": "npm:jspm-nodelibs-child_process@^0.2.0",
       "constants": "npm:jspm-nodelibs-constants@^0.2.0",
+      "core-js": "npm:core-js@^2.5.1",
       "crypto": "npm:jspm-nodelibs-crypto@^0.2.0",
+      "deepmerge": "npm:deepmerge@^2.0.1",
       "domain": "npm:jspm-nodelibs-domain@^0.2.0",
       "events": "npm:jspm-nodelibs-events@^0.2.0",
       "fs": "npm:jspm-nodelibs-fs@^0.2.0",
@@ -60,12 +59,15 @@
       "os": "npm:jspm-nodelibs-os@^0.2.0",
       "path": "npm:jspm-nodelibs-path@^0.2.0",
       "process": "npm:jspm-nodelibs-process@^0.2.0",
-      "react": "npm:react@^16.2.0",
+      "react": "npm:react@^16.0.0",
+      "react-dom": "npm:react-dom@^16.2.0",
       "stream": "npm:jspm-nodelibs-stream@^0.2.0",
       "string_decoder": "npm:jspm-nodelibs-string_decoder@^0.2.0",
+      "tslib": "npm:tslib@^1.8.0",
       "url": "npm:jspm-nodelibs-url@^0.2.0",
       "util": "npm:jspm-nodelibs-util@^0.2.0",
       "vm": "npm:jspm-nodelibs-vm@^0.2.0",
+      "warning": "npm:warning@^3.0.0",
       "zlib": "npm:jspm-nodelibs-zlib@^0.2.0"
     },
     "overrides": {

@@ -1,9 +1,15 @@
+import Expo from 'expo';
 import React from 'react'
 
-import { Text } from 'react-native'
-import app from 'test/index'
+import App from './src/test/mui'
 
-const AppComp: React.SFC = props => <Text>HALLO</Text>
+import { Text } from 'react-native'
+//import app from 'test/index'
+
+//const AppComp: React.SFC = props => <Text>HALLO REACTX-HTML</Text>
+const AppComp = App
 
 //export default AppComp
-export default app
+//export default app
+
+Expo.registerRootComponent(AppComp)

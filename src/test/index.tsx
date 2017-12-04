@@ -1,6 +1,6 @@
 import React from 'react'
 //import converter from 'reactx-html/current/index'
-import converter from 'reactx-html/native/index'
+import converter from '../reactx-html/native/index'
 
 const app = () => <div>
   {converter(() => <>

@@ -12,9 +12,10 @@
     [
       "module-resolver",
       {
-        "root": [ "./src" ],
         "alias": {
-          "reactx-html/current": "reactx-html/native"
+          "reactx-mui/current": "./node_modules/reactx-mui-native/native",
+          "reactx-mui/native": "./node_modules/reactx-mui-native/native",
+          "reactx-mui/common": "./node_modules/reactx-mui-native/common"
         }
       }
     ]
