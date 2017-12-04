@@ -1,19 +1,11 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es5",
-    "module": "system",
-    "inlineSourceMap": true,
-    "inlineSources": true,
-    "importHelpers": true,
+    "target": "es6",
 
     "baseUrl": ".",
     "paths": {
-      "reactx-mui/current/*": [ "node_modules/reactx-mui-native/web/*" ],
-      "reactx-mui/native/*": [ "node_modules/reactx-mui-native/native/*" ],
-      "reactx-mui/web/*": [ "node_modules/reactx-mui/web-native/web/*" ],
-      "reactx-mui/common/*": [ "node_modules/reactx-mui-native/common/*" ],
-      "reactx-mui/test/*": [ "node_modules/reactx-mui-native/test/*" ]
+      "reactx-mui/current/*": [ "node_modules/reactx-mui-native/native/*" ]
     },
 
     //"importHelpers": true, https://github.com/facebook/react-native/issues/16858
@@ -27,7 +19,7 @@
 
     "experimentalDecorators": true,
     "noImplicitAny": false,
-    "jsx": "react",
+    "jsx": "react-native",
     "lib": [
       "dom",
       "es2015",

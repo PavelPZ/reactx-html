@@ -13,9 +13,8 @@
       "module-resolver",
       {
         "alias": {
-          "reactx-mui/current": "./node_modules/reactx-mui-native/native",
-          "reactx-mui/native": "./node_modules/reactx-mui-native/native",
-          "reactx-mui/common": "./node_modules/reactx-mui-native/common"
+          "reactx-mui/current": "reactx-mui-native/native",
+          "reactx-mui": "reactx-mui-native"
         }
       }
     ]

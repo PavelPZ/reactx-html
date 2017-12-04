@@ -1,24 +1,19 @@
 SystemJS.config({
   paths: {
     "npm:": "jspm_packages/npm/",
-    "npmreactxmui:": "jspm_packages/npm/reactx-mui-web@0.1.12/"
+    "npm-reactx-mui:": "npm:reactx-mui-web@0.1.12",
   },
   browserConfig: {
     "baseURL": "/"
   },
   packages: {
-    "reactx-html": {
-      "main": "reactx-html.js"
-    },
     "": {
       "defaultExtension": "js"
     }
   },
   map: {
-    "reactx-mui/current": "npmreactxmui:web",
-    "reactx-mui/web": "npmreactxmui:web",
-    "reactx-mui/common": "npmreactxmui:common",
-    "reactx-mui/test": "npmreactxmui:test"
+    "reactx-mui/current": "npm-reactx-mui:/web",
+    "reactx-mui": "npm-reactx-mui:",
   }
 });
 
