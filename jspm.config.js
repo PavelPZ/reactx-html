@@ -25,7 +25,7 @@ SystemJS.config({
     "npm:*.json"
   ],
   map: {
-    "reactx-icons-web": "npm:reactx-icons-web@0.1.14",
+    "reactx-icons-web": "npm:reactx-icons-web@0.1.15",
     "reactx-mui-web": "npm:reactx-mui-web@0.1.12",
     "deepmerge": "npm:deepmerge@2.0.1",
     "assert": "npm:jspm-nodelibs-assert@0.2.1",
