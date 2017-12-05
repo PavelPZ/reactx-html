@@ -2,6 +2,7 @@ SystemJS.config({
   paths: {
     "npm:": "jspm_packages/npm/",
     "npm-reactx-mui:": "npm:reactx-mui-web@0.1.12",
+    "npm-reactx-icons:": "npm:reactx-icons-web@0.1.14"
   },
   browserConfig: {
     "baseURL": "/"
@@ -14,6 +15,7 @@ SystemJS.config({
   map: {
     "reactx-mui/current": "npm-reactx-mui:/web",
     "reactx-mui": "npm-reactx-mui:",
+    "reactx-icons": "npm-reactx-icons:"
   }
 });
 
@@ -23,6 +25,7 @@ SystemJS.config({
     "npm:*.json"
   ],
   map: {
+    "reactx-icons-web": "npm:reactx-icons-web@0.1.14",
     "reactx-mui-web": "npm:reactx-mui-web@0.1.12",
     "deepmerge": "npm:deepmerge@2.0.1",
     "assert": "npm:jspm-nodelibs-assert@0.2.1",

@@ -9,7 +9,8 @@
 
     "baseUrl": ".",
     "paths": {
-      "reactx-mui/current/*": [ "node_modules/reactx-mui-native/web/*" ]
+      "reactx-mui/current/*": [ "node_modules/reactx-mui-native/web/*" ],
+      "reactx-icons/current/*": [ "node_modules/reactx-icons-native/current/index-d" ]
     },
 
     //"importHelpers": true, https://github.com/facebook/react-native/issues/16858

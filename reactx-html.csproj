@@ -97,11 +97,14 @@
   <ItemGroup>
     <TypeScriptCompile Include="App.tsx" />
     <TypeScriptCompile Include="index.tsx" />
+    <TypeScriptCompile Include="src\index.ts" />
     <TypeScriptCompile Include="src\reactx-html\common\deepmerge.d.ts" />
     <TypeScriptCompile Include="src\reactx-html\common\react-native-d.d.ts" />
     <TypeScriptCompile Include="src\reactx-html\common\warning.d.ts" />
     <TypeScriptCompile Include="src\reactx-html\native\index.tsx" />
     <TypeScriptCompile Include="src\reactx-html\web\index.tsx" />
+    <TypeScriptCompile Include="src\test\icons.tsx" />
+    <None Include="src\test\icons-d.d.ts_" />
     <TypeScriptCompile Include="src\test\mui.tsx" />
     <TypeScriptCompile Include="src\test\index.tsx" />
   </ItemGroup>

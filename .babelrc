@@ -14,7 +14,9 @@
       {
         "alias": {
           "reactx-mui/current": "reactx-mui-native/native",
-          "reactx-mui": "reactx-mui-native"
+          "reactx-mui": "reactx-mui-native",
+          "reactx-icons/current/AccessPointNetwork": "reactx-icons-native",
+          "^reactx-icons/current/(.+)": "reactx-icons-native"
         }
       }
     ]

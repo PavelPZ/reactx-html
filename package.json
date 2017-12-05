@@ -25,13 +25,15 @@
   "devDependencies": {
     "@types/react": "^16.0.25",
     "@types/react-dom": "^16.0.3",
-    "@types/react-native": "^0.50.7"
+    "@types/react-native": "^0.50.7",
+    "babel-plugin-module-resolver": "^3.0.0"
   },
   "dependencies": {
     "deepmerge": "^2.0.1",
     "expo": "^23.0.5",
     "react": "16.0.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-23.0.0.tar.gz",
+    "reactx-icons-native": "^0.1.19",
     "reactx-mui-native": "^0.1.15",
     "tslib": "^1.8.0",
     "warning": "^3.0.0"
@@ -40,6 +42,7 @@
     "name": "reactx-html",
     "main": "reactx-html.js",
     "dependencies": {
+      "reactx-icons-web": "npm:reactx-icons-web@^0.1.14",
       "reactx-mui-web": "npm:reactx-mui-web@^0.1.6"
     },
     "devDependencies": {},
