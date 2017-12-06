@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/PavelPZ/reactx-html#readme",
   "devDependencies": {
-    "@types/react": "^16.0.25",
+    "@types/react": "git+https://github.com/PavelPZ/reactx-types-react-patch.git",
     "@types/react-dom": "^16.0.3",
     "@types/react-native": "^0.50.7",
     "babel-plugin-module-resolver": "^3.0.0"
