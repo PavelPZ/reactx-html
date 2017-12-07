@@ -1,12 +1,7 @@
 {
   "name": "reactx-html",
   "version": "0.1.0",
-  "description": "HTML to react-native converter",
-  "private": true,
   "main": "App.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PavelPZ/reactx-html.git"
@@ -23,10 +18,10 @@
   },
   "homepage": "https://github.com/PavelPZ/reactx-html#readme",
   "devDependencies": {
-    "@types/expo": "git+https://github.com/PavelPZ/reactx-types-expo.git",
-    "@types/react": "git+https://github.com/PavelPZ/reactx-types-react.git",
+    "@types/expo": "PavelPZ/reactx-types-expo",
+    "@types/react": "PavelPZ/reactx-types-react",
     "@types/react-dom": "^16.0.3",
-    "@types/react-native": "git+https://github.com/PavelPZ/reactx-types-react-native.git",
+    "@types/react-native": "PavelPZ/reactx-types-react-native",
     "material-ui": "^1.0.0-beta.22",
     "babel-plugin-module-resolver": "^3.0.0"
   },
@@ -35,10 +30,10 @@
     "expo": "^23.0.5",
     "react": "16.0.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-23.0.0.tar.gz",
+    "reactx-icons-native": "^0.1.0",
+    "reactx-mui-native": "^0.1.0",
     "recompose": "^0.26.0",
-    "tslib": "^1.8.0",
-    "reactx-icons-native": "PavelPZ/reactx-icons-native",
-    "reactx-mui-web": "PavelPZ/reactx-mui-web"
+    "tslib": "^1.8.0"
   },
   "jspm": {
     "name": "reactx-html",

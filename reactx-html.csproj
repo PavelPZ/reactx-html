@@ -98,11 +98,9 @@
   <ItemGroup>
     <TypeScriptCompile Include="App.tsx" />
     <TypeScriptCompile Include="index.tsx" />
-    <TypeScriptCompile Include="src\global-typings\expo.d.ts" />
     <TypeScriptCompile Include="src\global-typings\material-icons.d.ts" />
     <TypeScriptCompile Include="src\global-typings\material-ui-helper.d.ts" />
     <TypeScriptCompile Include="src\global-typings\material-ui.d.ts" />
-    <TypeScriptCompile Include="src\global-typings\react-native.d.ts" />
     <TypeScriptCompile Include="src\global-typings\typings.d.ts" />
     <TypeScriptCompile Include="src\index.ts" />
     <TypeScriptCompile Include="src\reactx-html\native\index.tsx" />
@@ -110,12 +108,6 @@
     <TypeScriptCompile Include="src\test\icons.tsx" />
     <TypeScriptCompile Include="src\test\mui.tsx" />
     <TypeScriptCompile Include="src\test\index.tsx" />
-    <TypeScriptCompile Include="src\typings\expo.d.ts" />
-    <TypeScriptCompile Include="src\typings\material-icons.d.ts" />
-    <TypeScriptCompile Include="src\typings\material-ui-helper.d.ts" />
-    <TypeScriptCompile Include="src\typings\material-ui.d.ts" />
-    <TypeScriptCompile Include="src\typings\react-native.d.ts" />
-    <TypeScriptCompile Include="src\typings\typings.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

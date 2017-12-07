@@ -11,7 +11,7 @@ const app = () => <div>
       <h3>h3</h3>
       <h4>h4</h4>
     <b>Bold</b> and <i>italic</i> and <u>underline</u>
-    <b>Bold <span style={{ fontWeight: 400 }}>not bold</span></b> and <i>italic and <span style={{ fontStyle: 'normal' }}>no italic</span></i> and <u>underline</u>
+    <b>Bold <span style={{ fontWeight: '400' }}>not bold</span></b> and <i>italic and <span style={{ fontStyle: 'normal' }}>no italic</span></i> and <u>underline</u>
     </div>
     <div style={{}}>before span <span></span> after span</div>
     <div>no style</div>
