@@ -76,6 +76,7 @@
     <Content Include="tsconfig.json" />
     <Content Include="tsconfig-native.json" />
     <Content Include="tsconfig-web.json" />
+    <Content Include="refresh.cmd" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

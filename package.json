@@ -23,9 +23,11 @@
   },
   "homepage": "https://github.com/PavelPZ/reactx-html#readme",
   "devDependencies": {
-    "@types/react": "git+https://github.com/PavelPZ/reactx-types-react-patch.git",
+    "@types/expo": "git+https://github.com/PavelPZ/reactx-types-expo.git",
+    "@types/react": "git+https://github.com/PavelPZ/reactx-types-react.git",
     "@types/react-dom": "^16.0.3",
-    "@types/react-native": "^0.50.7",
+    "@types/react-native": "git+https://github.com/PavelPZ/reactx-types-react-native.git",
+    "material-ui": "^1.0.0-beta.22",
     "babel-plugin-module-resolver": "^3.0.0"
   },
   "dependencies": {
@@ -33,17 +35,19 @@
     "expo": "^23.0.5",
     "react": "16.0.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-23.0.0.tar.gz",
-    "reactx-icons-native": "^0.1.20",
-    "reactx-mui-native": "^0.1.15",
+    "recompose": "^0.26.0",
     "tslib": "^1.8.0",
-    "warning": "^3.0.0"
+    "reactx-icons-native": "PavelPZ/reactx-icons-native",
+    "reactx-mui-web": "PavelPZ/reactx-mui-web"
   },
   "jspm": {
     "name": "reactx-html",
     "main": "reactx-html.js",
     "dependencies": {
-      "reactx-icons-web": "npm:reactx-icons-web@^0.1.15",
-      "reactx-mui-web": "npm:reactx-mui-web@^0.1.6"
+      "material-ui": "npm:material-ui@^1.0.0-beta.22",
+      "recompose": "npm:recompose@^0.26.0",
+      "reactx-icons-web": "npm:reactx-icons-web@^0.1.0",
+      "reactx-mui-web": "npm:reactx-mui-web@^0.1.0"
     },
     "devDependencies": {},
     "peerDependencies": {
@@ -59,6 +63,8 @@
       "fs": "npm:jspm-nodelibs-fs@^0.2.0",
       "http": "npm:jspm-nodelibs-http@^0.2.0",
       "https": "npm:jspm-nodelibs-https@^0.2.0",
+      "jss": "npm:jss@^9.0.0",
+      "lodash": "npm:lodash@^4.17.0",
       "os": "npm:jspm-nodelibs-os@^0.2.0",
       "path": "npm:jspm-nodelibs-path@^0.2.0",
       "process": "npm:jspm-nodelibs-process@^0.2.0",
@@ -87,6 +93,12 @@
         "ignore": [
           "test.js"
         ]
+      },
+      "npm:lodash@4.17.4": {
+        "map": {
+          "buffer": "@empty",
+          "process": "@empty"
+        }
       },
       "npm:pbkdf2@3.0.14": {
         "main": "browser.js"
