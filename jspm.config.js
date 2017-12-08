@@ -1,8 +1,8 @@
 SystemJS.config({
   paths: {
     "npm:": "jspm_packages/npm/",
-    "npm-reactx-mui:": "npm:reactx-mui-web@0.1.12",
-    "npm-reactx-icons:": "npm:reactx-icons-web@0.1.14"
+    //"npm-reactx-mui:": "npm:reactx-mui-web@0.1.12",
+    //"npm-reactx-icons:": "npm:reactx-icons-web@0.1.15"
   },
   browserConfig: {
     "baseURL": "/"
@@ -13,9 +13,7 @@ SystemJS.config({
     }
   },
   map: {
-    "reactx-mui/current": "npm-reactx-mui:/web",
-    "reactx-mui": "npm-reactx-mui:",
-    "reactx-icons": "npm-reactx-icons:"
+    "reactx-mui/current": "reactx-mui/web",
   }
 });
 
@@ -28,8 +26,8 @@ SystemJS.config({
     "jss": "npm:jss@9.3.3",
     "lodash": "npm:lodash@4.17.4",
     "material-ui": "npm:material-ui@1.0.0-beta.22",
-    "reactx-icons-web": "npm:reactx-icons-web@0.1.15",
-    "reactx-mui-web": "npm:reactx-mui-web@0.1.12",
+    "reactx-icons": "npm:reactx-icons-web@0.1.15",
+    "reactx-mui": "npm:reactx-mui-web@0.1.12",
     "deepmerge": "npm:deepmerge@2.0.1",
     "assert": "npm:jspm-nodelibs-assert@0.2.1",
     "buffer": "npm:jspm-nodelibs-buffer@0.2.3",
@@ -55,7 +53,7 @@ SystemJS.config({
     "util": "npm:jspm-nodelibs-util@0.2.2",
     "vm": "npm:jspm-nodelibs-vm@0.2.1",
     "warning": "npm:warning@3.0.0",
-    "zlib": "npm:jspm-nodelibs-zlib@0.2.3"
+    "zlib": "npm:jspm-nodelibs-zlib@0.2.3",
   },
   packages: {
     "npm:react@16.2.0": {

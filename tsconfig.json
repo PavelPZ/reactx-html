@@ -1,11 +1,16 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es6",
+    "target": "es5",
+    "module": "system",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "importHelpers": true,
 
     "baseUrl": ".",
     "paths": {
       "reactx-mui/current/*": [ "node_modules/reactx-mui-native/native/*" ],
+      "reactx-mui/*": [ "node_modules/reactx-mui-native/*" ],
       "reactx-icons/current/*": [ "node_modules/reactx-icons-native/current/index-d" ]
     },
 
@@ -20,7 +25,7 @@
 
     "experimentalDecorators": true,
     "noImplicitAny": false,
-    "jsx": "react-native",
+    "jsx": "react",
     "lib": [
       "dom",
       "es2015",

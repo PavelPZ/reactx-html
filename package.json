@@ -31,18 +31,18 @@
     "react": "16.0.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-23.0.0.tar.gz",
     "reactx-icons-native": "^0.1.0",
-    "reactx-mui-native": "^0.1.0",
+    "reactx-mui-native": "^0.1.17",
     "recompose": "^0.26.0",
     "tslib": "^1.8.0"
   },
   "jspm": {
     "name": "reactx-html",
-    "main": "reactx-html.js",
+    "main": "index.js",
     "dependencies": {
       "material-ui": "npm:material-ui@^1.0.0-beta.22",
       "recompose": "npm:recompose@^0.26.0",
-      "reactx-icons-web": "npm:reactx-icons-web@^0.1.0",
-      "reactx-mui-web": "npm:reactx-mui-web@^0.1.0"
+      "reactx-icons": "npm:reactx-icons-web@^0.1.0",
+      "reactx-mui": "npm:reactx-mui-web@^0.1.0"
     },
     "devDependencies": {},
     "peerDependencies": {
